@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5FDFD"
+    tools:context=".activities.MainActivity">
+
+
+    <Button
+        android:id="@+id/button_dk"
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:text="Dangki"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:text="Dang nhap"
+        app:layout_constraintEnd_toStartOf="@+id/button_dk"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/email_txt"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:focusable="auto"
+        android:focusableInTouchMode="true"
+        android:text="Nhap email"
+        app:layout_constraintBottom_toTopOf="@+id/ten_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.735" />
+
+    <EditText
+        android:id="@+id/ten_txt"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="13dp"
+        android:text="Nhap ten dang nhap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_txt" />
+
+    <EditText
+        android:id="@+id/matkhau_txt"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:inputType="textPassword"
+        android:text="Nhap mat khau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ten_txt" />
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:text="Nhap lai mat khau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/matkhau_txt" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_notes"
+        android:layout_width="367dp"
+        android:layout_height="253dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

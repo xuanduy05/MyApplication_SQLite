@@ -1,0 +1,4 @@
+#Mon Mar 28 15:22:49 ICT 2022
+base.0=D\:\\nam_2_ki_2\\lap_trinh_di_dong\\tailieu_main\\RoomSample-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+renamed.0=classes.dex
+path.0=classes.dex

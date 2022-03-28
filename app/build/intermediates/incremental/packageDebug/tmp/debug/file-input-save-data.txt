@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Mar 28 10:31:54 ICT 2022
+0.base=D\:\\nam_2_ki_2\\lap_trinh_di_dong\\tailieu_main\\RoomSample-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+count=1
+0.baseType=DIRECTORY
+0.set=DEX
